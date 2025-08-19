@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BooMalang</title>
+  <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+  
+  <nav class="navbar">
+    <!-- Left Div -->
+    <div class="navbar-left">
+      <img src="./images/Booma.png" alt="Logo">
+      <ul class="nav-links">
+        <li>About Us</li>
+        <li>How it Works</li>
+        <li>For Teachers</li>
+        <li>Pricing</li>
+      </ul>
+    </div>
+
+    <!-- Right Div -->
+    <div class="navbar-right">
+      <ul class="nav-links">
+        <li>Blog</li>
+        <li>Login <img src="./images/User.png" alt="Small Logo"></li>
+      </ul>
+      <div class="nav-buttons">
+        <button class="btn-primary">Book a demo</button>
+        <button class="btn-secondary">Contact us</button>
+      </div>
+    </div>
+
+    <!-- Hamburger -->
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu">
+    <ul>
+      <li>About Us</li>
+      <li>How it Works</li>
+      <li>For Teachers</li>
+      <li>Pricing</li>
+      <li>Blog</li>
+      <li>Login <img src="./images/User.png" alt="Small Logo"></li>
+    </ul>
+    <div class="mobile-buttons">
+      <button class="btn-primary">Book a demo</button>
+      <button class="btn-secondary">Contact us</button>
+    </div>
+  </div>
+
+    <!-- Hero Section -->
+  <section class="sec1">
+      <div class="left1">
+        <h1><span style="color: #ff9a3f">Real</span> Conversations</h1>
+      <h1>Real<span style="color: #ff9a3f"> Confidence</span></h1>
+      <div class="leftpara1">
+        <p>Practice with trained native speakers and watch
+             language learning come to life.</p>
+             <br> <br>
+          <p>Boomalang pairs students with native speakers for real-time
+             conversations that go beyond the textbook.</p>   
+      </div>
+      <div class="sec1-btn">
+      <button class="btn-teach">Teacher sign up <img src="./images/User.png" alt="Small Logo"></button>
+        <button class="btn-student">Student sign up <img src="./images/Icon.png" alt="Small Logo"></button>
+     </div>
+      </div>
+    <div class="right1">
+  <div class="right1-image">
+    <img src="./images/Frame 1000004790.png" alt="Hero Image">
+    <p>
+      Watch how <span style="color: #6ed4c7;">Boomalang transformed</span> a nervous High school student 
+      to a confident speaker
+    </p>
+  </div>
+</div>
+  </section>
+
+
+<!-- Hero Section 2-->
+ <section class="sec2">
+    <div class="left2">
+  <div class="left2-image">
+    <img src="./images/Untitled design (2) 1.png" alt="">
+    
+    <div class="earthbox">
+      <img src="./images/earth 1.png" alt="earth image">
+      <p>Countries represented</p>
+    </div>
+  </div>
+</div>
+
+   <div class="right2">
+    <div class="right2-head">
+    <h1>Why Boomalang?</h1>
+    <p>We believe language learning sticks when it’s lived, not memorized.
+      Boomalang gives students the chance to speak with real people, from real places, in real time. No pressure. No judgment.</p>
+   </div>
+    <div class="StarBox">
+        <div class="square-star">
+            <div class="round-starBox">
+                <img src="./images/star.png" alt="Star Image">
+            </div>
+        </div>
+        <div class="star-content">
+            <h2>Human First Learning</h2>
+            <p>Students build fluency and confidence through real, personal interaction,
+             not just through screens, apps, or flashcards.</p>
+       </div>
+   </div>
+    <div class="StarBox">
+        <div class="square-star" style="background-color: #6ed4c7;">
+            <div class="round-starBox">
+                <img src="./images/star.png" alt="Star Image">
+            </div>
+        </div>
+        <div class="star-content">
+            <h2>Designed For every level</h2>
+            <p>Students build fluency and confidence through real, personal interaction,
+             not just through screens, apps, or flashcards.</p>
+       </div>
+   </div>
+    <div class="StarBox">
+        <div class="square-star" >
+            <div class="round-starBox">
+                <img src="./images/star.png" alt="Star Image">
+            </div>
+        </div>
+        <div class="star-content">
+            <h2>Global connection ,local impact</h2>
+            <p>Students build fluency and confidence through real, personal interaction,
+             not just through screens, apps, or flashcards.</p>
+       </div>
+   </div>
+   <button class="learn-btn">Learn More</button>
+   </div>
+ </section>
+
+  <script>
+    // Toggle Mobile Menu
+    const hamburger = document.querySelector(".hamburger");
+    const mobileMenu = document.querySelector(".mobile-menu");
+
+    hamburger.addEventListener("click", () => {
+      hamburger.classList.toggle("active");
+      mobileMenu.classList.toggle("active");
+    });
+  </script>
+
+</body>
+</html>
